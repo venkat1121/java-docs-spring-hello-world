@@ -51,3 +51,5 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B9AABD8D6BAB41648FC1ECD414AC198B }}
           package: '*.jar'
+- name: Azure App Configuration Sync
+  uses: Azure/AppConfiguration-Sync@v1.1.3
