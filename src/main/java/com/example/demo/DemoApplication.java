@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "This is Java Dev Code";
+		return "This is Java Test Code";
 	}
 }
